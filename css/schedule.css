@@ -1,0 +1,63 @@
+* { box-sizing: border-box } 
+
+body {
+	padding:10px;
+	margin:0;
+	font-family:Arial;
+	color:#000;
+	font-weight:300;
+	font-size:.7em;
+}
+
+main {
+	margin:0 auto;
+}
+
+section {
+}
+
+.section-title, .group-title, .event-link {
+	padding:20px;
+	margin:0 0 20px;
+}
+
+.section-title {
+	font-weight:normal;
+	font-size:1.9em;
+	background:#FF0066;
+}
+
+.group-title {
+	font-weight:normal;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	background: #01AAAF;
+}
+
+.event-group {
+	overflow:hidden;
+	margin:0;
+	padding:0;
+}
+
+
+.event-item {
+	border-bottom:1px solid #ccc;
+	margin:0 0 5px;
+	padding:0 0 5px;	
+}
+
+.event-date {
+	font-weight:bold;
+}
+.event-stage {
+	color:#666;
+}
+.event-title {
+	font-weight:bold;
+}
+h2 {
+	background:#eee;
+	padding:5px;
+	margin:0 0 10px;
+}
